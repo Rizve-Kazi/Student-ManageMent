@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Report</title>
+<style>
+{{css}}
+</style>
+</head>
+<body>
+
+<table class="banner" width="100%" cellspacing="0">
+    <tr>
+        <td>
+            <h1>Student Report</h1>
+            <div class="sub">Generated on {{date}}</div>
+        </td>
+    </tr>
+</table>
+
+<div style="padding: 12px;">
+
+    <table width="100%" cellspacing="8">
+        <tr>
+            <td class="card" width="50%">
+                <div class="num">{{total}}</div>
+                <div class="label">Total Students</div>
+            </td>
+            <td class="card" width="50%">
+                <div class="num">{{deptCount}}</div>
+                <div class="label">Departments</div>
+            </td>
+        </tr>
+    </table>
+
+    <div class="section">Department Summary</div>
+    <table class="data" width="100%" cellspacing="0">
+        <tr><th>Department</th><th>Students</th></tr>
+        {{deptRows}}
+    </table>
+
+    <div class="section">All Students</div>
+    <table class="data" width="100%" cellspacing="0">
+        <tr><th>ID</th><th>Name</th><th>Roll</th><th>Department</th><th>Phone</th></tr>
+        {{studentRows}}
+    </table>
+
+    <div class="footer">Student Manager &middot; Java Swing + SQLite</div>
+</div>
+
+</body>
+</html>

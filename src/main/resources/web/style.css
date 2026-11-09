@@ -1,0 +1,86 @@
+/* Swing-এর JEditorPane CSS 1 সাপোর্ট করে, তাই শুধু সেই প্রপার্টিগুলো ব্যবহার করা হয়েছে।
+   ব্রাউজারে Export করা ফাইলেও একই CSS কাজ করবে। */
+
+body {
+    font-family: SansSerif;
+    font-size: 13px;
+    color: #1f2937;
+    background-color: #f3f4f6;
+    margin: 0px;
+}
+
+.banner {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    padding: 14px;
+}
+
+.banner h1 {
+    font-size: 22px;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.banner .sub {
+    font-size: 12px;
+    color: #bfdbfe;
+}
+
+.section {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1e3a8a;
+    margin-top: 14px;
+    margin-bottom: 6px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    padding: 10px;
+    text-align: center;
+}
+
+.card .num {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e40af;
+}
+
+.card .label {
+    font-size: 11px;
+    color: #6b7280;
+}
+
+table.data {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+}
+
+table.data th {
+    background-color: #dbeafe;
+    color: #1e3a8a;
+    text-align: left;
+    padding: 6px;
+}
+
+table.data td {
+    padding: 6px;
+    border-top: 1px solid #e5e7eb;
+}
+
+tr.alt td {
+    background-color: #f9fafb;
+}
+
+.empty {
+    color: #9ca3af;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    font-size: 11px;
+    color: #9ca3af;
+    margin-top: 14px;
+}
